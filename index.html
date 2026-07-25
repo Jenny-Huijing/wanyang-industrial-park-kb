@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="万洋产业园数智金融服务平台项目知识库：产品蓝图、MVP、AI助手、关键决策与待办事项。">
+  <meta name="theme-color" content="#071b36">
+  <title>万洋产业园数智金融服务平台｜项目知识库</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">跳至正文</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回知识库首页">
+      <span class="brand-mark">WY</span>
+      <span><strong>万洋产业园金融平台</strong><small>项目知识库</small></span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">目录</button>
+    <nav id="main-nav" aria-label="知识库目录">
+      <a href="#overview">项目总览</a>
+      <a href="#architecture">产品蓝图</a>
+      <a href="#mvp">MVP与AI</a>
+      <a href="#data">调研数据</a>
+      <a href="#decisions">决策清单</a>
+      <a class="nav-cta" href="https://wanyang-product-mindmap.liberasoul0722.chatgpt.site" target="_blank" rel="noreferrer">查看产品方案</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section class="hero" id="top">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">INDUSTRIAL PARK FINANCE · KNOWLEDGE BASE</p>
+          <h1>万洋产业园<br><span>数智金融服务平台</span></h1>
+          <p class="hero-lead">以园区运营为底座，以企业成长为主线，以数据智能为引擎，以综合金融为增值核心。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#architecture">查看产品蓝图</a>
+            <a class="button secondary" href="https://wanyang-product-mindmap.liberasoul0722.chatgpt.site/mvp" target="_blank" rel="noreferrer">体验APP原型</a>
+          </div>
+          <p class="updated">最后更新：2026-07-25 · 状态：方案设计与MVP验证</p>
+        </div>
+        <aside class="position-card" aria-label="平台定位">
+          <span>一句话定位</span>
+          <h2>园区服务连接企业，数据智能识别需求，持牌机构完成金融服务。</h2>
+          <p>平台不是单纯的园区APP，也不是万洋自营金融业务，而是万洋面向未来的园区经营服务基础设施。</p>
+        </aside>
+      </div>
+      <div class="fact-strip" aria-label="调研规模摘要">
+        <div><strong>270+</strong><span>全国园区项目</span></div>
+        <div><strong>2—3万</strong><span>入驻制造企业</span></div>
+        <div><strong>约280万</strong><span>产业工人</span></div>
+        <div><strong>约120亿</strong><span>年票据需求</span></div>
+        <div><strong>超550亿</strong><span>园区／厂房按揭</span></div>
+      </div>
+      <p class="data-note">以上为调研访谈口径，正式立项及商务测算前需逐项核验。</p>
+    </section>
+
+    <section class="section" id="overview">
+      <div class="section-heading">
+        <p>01 · 项目总览</p>
+        <h2>长期合作，不是一次性交付</h2>
+        <span>首期建议选择温州平阳园区试点，先跑通少数高价值场景，再形成跨园区复制模板。</span>
+      </div>
+      <div class="grid three">
+        <article class="card">
+          <span class="number">01</span>
+          <h3>万洋的角色</h3>
+          <p>承担园区运营、企业服务、场景组织、平台运营和数据授权管理。</p>
+          <ul>
+            <li>不自行从事持牌金融业务</li>
+            <li>不替代银行审批</li>
+            <li>不承接客户资金</li>
+          </ul>
+        </article>
+        <article class="card">
+          <span class="number">02</span>
+          <h3>平安的角色</h3>
+          <p>提供对公、零售、支付结算、票据、融资、代发和保险等综合金融能力。</p>
+          <ul>
+            <li>独立承担准入与风控责任</li>
+            <li>提供金融运营与科技能力</li>
+            <li>按授权获取最小必要数据</li>
+          </ul>
+        </article>
+        <article class="card">
+          <span class="number">03</span>
+          <h3>平台的价值</h3>
+          <p>形成“高频园区服务—经营数据—需求识别—金融服务—运营反馈”的闭环。</p>
+          <ul>
+            <li>提升园区运营效率与企业黏性</li>
+            <li>降低银行批量获客成本</li>
+            <li>沉淀可复制的产品与数据能力</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="principles">
+        <h3>七项产品原则</h3>
+        <div class="principle-grid">
+          <span>园区运营是底座</span>
+          <span>企业成长是主线</span>
+          <span>综合金融是增值核心</span>
+          <span>数据智能是引擎</span>
+          <span>平台与数据由万洋主控</span>
+          <span>先MVP、后生态</span>
+          <span>多期建设、跨园区复制</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="architecture">
+      <div class="section-heading">
+        <p>02 · 产品蓝图</p>
+        <h2>一平台、两系统、三中台、N生态</h2>
+        <span>保持园区运营与金融服务逻辑隔离，通过共享中台实现业务协同、数据协同和生态开放。</span>
+      </div>
+
+      <div class="architecture">
+        <article class="arch-layer entry">
+          <header><b>一平台</b><h3>万洋产业园数智金融服务平台</h3></header>
+          <div class="arch-grid four">
+            <span>集团经营驾驶舱</span>
+            <span>园区运营工作台</span>
+            <span>企业PC／移动门户</span>
+            <span>员工APP／小程序</span>
+          </div>
+        </article>
+        <article class="arch-layer systems">
+          <header><b>两系统</b><h3>两套核心业务系统</h3></header>
+          <div class="arch-grid two">
+            <span><strong>园区运营管理系统</strong><small>招商、空间、物业、收费、安防、能耗、工单与企业成长服务</small></span>
+            <span><strong>金融服务运营系统</strong><small>开户、支付、票据、代发、融资、保险及金融运营管理</small></span>
+          </div>
+        </article>
+        <article class="arch-layer middle">
+          <header><b>三中台</b><h3>三大共享能力中台</h3></header>
+          <div class="arch-grid three">
+            <span><strong>业务中台</strong><small>企业、客户、产品、订单、账户、合同与权益</small></span>
+            <span><strong>数据智能中台</strong><small>画像、经营信号、融资识别、风控模型与AI能力</small></span>
+            <span><strong>开放集成中台</strong><small>API、存量系统、金融机构与生态服务接入</small></span>
+          </div>
+        </article>
+        <article class="arch-layer ecosystem">
+          <header><b>N生态</b><h3>可持续扩展的产业服务生态</h3></header>
+          <div class="arch-grid four">
+            <span>金融机构生态</span>
+            <span>企业专业服务</span>
+            <span>员工生活服务</span>
+            <span>政府与产业链服务</span>
+          </div>
+        </article>
+        <article class="arch-layer base">
+          <header><b>统一底座</b><h3>技术、安全与平台运营保障</h3></header>
+          <div class="arch-grid four">
+            <span>身份／权限／租户</span>
+            <span>流程／规则／消息／搜索</span>
+            <span>统一运营／监控／DevOps</span>
+            <span>安全／隐私／审计／灾备</span>
+          </div>
+        </article>
+      </div>
+
+      <aside class="callout">
+        <strong>架构口径</strong>
+        <p>“金融服务前台”属于企业门户中的金融入口；“企业成长服务”属于园区运营及生态服务域；“统一运营中心”属于平台底座，不单列为额外系统或第四个中台。</p>
+      </aside>
+    </section>
+
+    <section class="section" id="mvp">
+      <div class="section-heading">
+        <p>03 · MVP与AI</p>
+        <h2>先做出可办理的闭环</h2>
+        <span>原型围绕首页、服务中心、AI管家和我的企业四个主界面展开。</span>
+      </div>
+
+      <div class="mvp-layout">
+        <div>
+          <h3>首期候选场景</h3>
+          <div class="scenario-list">
+            <article><b>01</b><span><strong>一站通缴费</strong><small>物业、水费、停车等统一账单、支付与对账</small></span></article>
+            <article><b>02</b><span><strong>对公开户</strong><small>预约、材料准备与开户进度跟踪</small></span></article>
+            <article><b>03</b><span><strong>票据服务</strong><small>需求采集、产品匹配、询价或跳转办理</small></span></article>
+            <article><b>04</b><span><strong>代发工资</strong><small>企业代发申请与公私联动服务</small></span></article>
+            <article><b>05</b><span><strong>企业融资</strong><small>普惠、设备融资与经营周转需求识别</small></span></article>
+            <article><b>06</b><span><strong>园区报修</strong><small>识别图片、位置与故障类型，自动生成工单</small></span></article>
+          </div>
+        </div>
+        <aside class="ai-card">
+          <div class="ai-orb" aria-hidden="true"><i></i><i></i></div>
+          <p>AI INTELLIGENT ASSISTANT</p>
+          <h3>AI助手不只回答问题，<br>还要理解需求并完成任务。</h3>
+          <div class="ai-demos">
+            <span>500万元设备融资方案</span>
+            <span>本月园区账单查询</span>
+            <span>路灯故障自动报修</span>
+            <span>企业可申报政策匹配</span>
+          </div>
+          <a class="button primary" href="https://wanyang-product-mindmap.liberasoul0722.chatgpt.site/mvp" target="_blank" rel="noreferrer">打开高保真原型</a>
+        </aside>
+      </div>
+
+      <div class="guardrails">
+        <h3>AI落地边界</h3>
+        <div class="grid four">
+          <span>推荐结果可解释、可追溯</span>
+          <span>金融建议以银行审批为准</span>
+          <span>数据调用展示授权与用途</span>
+          <span>高风险操作需要人工确认</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="data">
+      <div class="section-heading">
+        <p>04 · 调研数据</p>
+        <h2>访谈口径与可信度说明</h2>
+        <span>规模数据用于识别机会，不直接作为立项、估值或商业测算依据。</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>指标</th><th>访谈口径</th><th>核验要求</th></tr></thead>
+          <tbody>
+            <tr><td>全国园区项目</td><td>270+</td><td>确认统计时点、建设及运营口径</td></tr>
+            <tr><td>入驻制造企业</td><td>2—3万家</td><td>确认存续、入驻和实际生产企业数量</td></tr>
+            <tr><td>产业工人</td><td>约280万人</td><td>与工资及代发规模口径联动核验</td></tr>
+            <tr><td>园区／厂房按揭</td><td>超550亿元</td><td>确认存量、累计或年度投放口径</td></tr>
+            <tr><td>年票据需求</td><td>约120亿元</td><td>抽样验证需求频率及当前合作银行</td></tr>
+            <tr><td>代发工资</td><td>约38亿元</td><td>可能为部分园区或存量银行口径</td></tr>
+            <tr class="warning"><td>工资规模</td><td>曾提“2000多亿元”</td><td>与38亿元口径明显不同，必须澄清</td></tr>
+            <tr><td>园区运营收费</td><td>约12亿元／年</td><td>拆分水费、物业费、门店及其他收费</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="judgements">
+        <article><h3>可以作为判断</h3><p>万洋的核心优势是招商、建设和运营的全链条能力；园区的企业聚集和持续服务关系具备场景经营价值。</p></article>
+        <article><h3>仍需验证</h3><p>水电、物业、门禁等数据能否形成增量风控价值，必须通过历史样本、离线验证和受控试点证明。</p></article>
+        <article><h3>不能直接采用</h3><p>数据公司估值、全国营收、渗透率及分润比例等战略设想，不能直接作为立项结论。</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="decisions">
+      <div class="section-heading">
+        <p>05 · 决策与行动</p>
+        <h2>已经明确什么，还要回答什么</h2>
+      </div>
+      <div class="decision-layout">
+        <article class="decision-card confirmed">
+          <h3>已形成的关键决策</h3>
+          <dl>
+            <div><dt>平台定位</dt><dd>园区经营服务平台＋持牌金融服务连接平台</dd></div>
+            <div><dt>建设口径</dt><dd>一平台、两系统、三中台、N生态</dd></div>
+            <div><dt>建设方式</dt><dd>平阳园区MVP先行，验证后复制</dd></div>
+            <div><dt>数据原则</dt><dd>万洋主控，企业授权，银行按需获取</dd></div>
+            <div><dt>AI定位</dt><dd>既展示科技实力，又能识别需求并完成任务</dd></div>
+          </dl>
+        </article>
+        <article class="decision-card pending">
+          <h3>待决策与待核验</h3>
+          <ul class="checklist">
+            <li>平安主合作模式还是允许其他银行开放接入？</li>
+            <li>平台、客户关系、数据控制权和模型成果分别归谁？</li>
+            <li>现有系统哪些平移、重构或停止？</li>
+            <li>MVP首场景最终选择开户、缴费、票据还是融资？</li>
+            <li>收费、支付、票据、代发和融资的真实规模是多少？</li>
+            <li>试点激活率、转化率、数据质量和复制成本指标是什么？</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="next-steps">
+        <h3>建议下一步</h3>
+        <ol>
+          <li><b>系统盘点</b><span>万洋提供功能清单、接口清单、数据目录和主要痛点。</span></li>
+          <li><b>范围冻结</b><span>共同冻结平阳园区MVP的3—5条核心业务旅程。</span></li>
+          <li><b>口径核验</b><span>对访谈规模数据进行书面确认，建立统一指标字典。</span></li>
+          <li><b>合规评审</b><span>明确数据授权、金融导流、支付结算和分润模式。</span></li>
+          <li><b>用户验证</b><span>用高保真原型开展企业访谈和任务可用性测试。</span></li>
+          <li><b>实施准备</b><span>形成PRD、集成方案、排期、验收指标及复制模板。</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="deliverables">
+      <div>
+        <p>PROJECT DELIVERABLES</p>
+        <h2>已产出成果</h2>
+      </div>
+      <a href="https://wanyang-product-mindmap.liberasoul0722.chatgpt.site" target="_blank" rel="noreferrer"><strong>完整产品方案</strong><span>产品定位、架构、功能与路线</span></a>
+      <a href="https://wanyang-product-mindmap.liberasoul0722.chatgpt.site/wanyang-product-mindmap.html" target="_blank" rel="noreferrer"><strong>产品功能思维导图</strong><span>分层浏览完整功能范围</span></a>
+      <a href="https://wanyang-product-mindmap.liberasoul0722.chatgpt.site/mvp" target="_blank" rel="noreferrer"><strong>APP／小程序MVP原型</strong><span>可交互的AI办事演示</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>万洋产业园数智金融服务平台 · 项目知识库</strong>
+      <span>内容来自调研材料、会议记录、产品方案和原型设计过程。</span>
+    </div>
+    <a href="#top">返回顶部 ↑</a>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
